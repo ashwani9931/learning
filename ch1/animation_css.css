@@ -1,0 +1,55 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* animation-name: widthanimation; */
+    /* animation-name:animationfont; */
+    /* animation-duration: 2s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s; */
+    /* animation-direction: normal; */
+    animation: colanimation 2s ease-in 0s 2 normal;
+}
+/* @keyframes nimationfonta {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+@keyframes colouranimation {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: brown;
+    }
+} */
+@keyframes widthanimation {
+    from {
+          font-size: 20px;
+        width:  20px;
+        background-color:yellow;
+    }
+    to {
+        font-size: 70px;
+        width: 400px;
+        background-color:palevioletred;
+        border-radius: 15px;
+    }
+}
+@keyframes colanimation {
+    0% {
+      background-color:red;
+    }
+    50% {
+       background-color: chartreuse;
+    }
+    80% {
+        background-color: deepskyblue;
+    }
+    100% {
+        background-color: hotpink;
+    }
+}
