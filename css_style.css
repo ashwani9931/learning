@@ -1,0 +1,38 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+    color:orchid;
+}
+h1 {
+    color:brown;
+}
+#myId p{
+     color: green;
+}
+nav ul li a{
+    color:black;
+}
+/*
+decendant selector 
+can write like that 
+nav  a{
+    color:black;
+} */
+
+p+h3 {
+    color:palevioletred;
+   
+    text-decoration: blueviolet;
+}
+.upvote+button {
+    background-color: cadetblue;
+}
+span > button {
+    background-color: chartreuse;
+}
+input[type="radio"]:checked + label {
+    font-weight: red;
+    background-color: darkslateblue;
+}
+p::selection  {
+    background-color: rgb(178, 107, 20);
+}
